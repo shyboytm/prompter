@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
+import adjectives from '../data/Adjectives';
+import nouns from '../data/Nouns';
 
 class App extends Component {
   render() {
 
-    var adjectives = ['Big', 'Cool', 'Happy', 'Nonchalant', 'Pixelated', 'Nerdy', 'Punk', 'Maroon', 'Violet', 'Pastel', 'Red', 'Blue', 'Icey', 'Burnt', 'Minimal', 'Gradient'];
     var adjective = adjectives[Math.floor(Math.random()*adjectives.length)];
-
-    var nouns = ['Dog', 'Cat', 'Bird', 'Man', 'Woman', 'Girl', 'Boy', 'Human', 'Flag', 'Video Game', 'Wizard', 'Toast', 'Breakfast', 'Landscape', 'Nature', 'Ocean', 'Pond', 'Lake', 'Ninja', 'Emoji'];
     var noun = nouns[Math.floor(Math.random()*nouns.length)];
 
     var prompt = adjective + " " + noun;
