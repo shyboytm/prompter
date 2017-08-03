@@ -4,7 +4,7 @@ var adjectives = [
   'Gifted', 'Upscale', 'Slow', 'Evil', 'Angelic', 'Slippery', 'Light', 'Dark', 'Golden', 'Copper',
   'Cosmic', 'Medieval', 'Ghostly', 'Expensive', 'Careful', 'Brave', 'Adorable', 'Beautiful', 'Fat',
   'Zombie', 'Broad', 'Abandoned', 'Agitated', 'Angry', 'Cartoon', 'Clean', 'Cold', 'Modern', 'Rustic',
-  'Industrial'
+  'Industrial', 'Old'
 ];
 
 export default adjectives;
