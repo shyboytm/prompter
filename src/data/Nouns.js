@@ -5,7 +5,7 @@ var nouns = [
   'Marker', 'Painting', 'Crayon', 'School', 'Nerd', 'Middle Schooler', 'Bottle', 'Desk', 'Jake the Dog',
   'Fin the Human', 'Keyboard', 'Instrument', 'Violin', 'Cello', 'Drums', 'Bass', 'Rapper',
   'Singer', 'Celebrity', 'Kanye West', 'Lil Wayne', 'Adele', 'Ariana Grande', 'Migos', 'Katy Perry',
-  'Whippet', 'Italian Greyhound', 'Daschund', 'Pitbull', 'Golden Retriever', 'Mutt', 'Monkey',
+  'Daschund', 'Pitbull', 'Golden Retriever', 'Mutt', 'Monkey',
   'Albert Einstein', 'Train', 'Laptop', 'Cartoon', 'Anime', 'Character', 'Office Chair', 'Website',
   'Magazine', 'Newspaper', 'Car', 'Ferrari', 'Lambo', 'Tattoo', 'Wallet', 'Lamp', 'Pokémon'
 ];

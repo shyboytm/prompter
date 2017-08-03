@@ -1,9 +1,10 @@
 var adjectives = [
   'Giant', 'Cool', 'Happy', 'Nonchalant', 'Pixelated', 'Nerdy', 'Punk', 'Maroon', 'Violet',
   'Pastel', 'Red', 'Blue', 'Icey', 'Burnt', 'Minimal', 'Gradient', 'Sad', 'Mad', 'Crying',
-  'Gifted', 'Upscale', 'Slow', 'Evil', 'Angelic', 'Sippery', 'Light', 'Dark', 'Golden', 'Copper',
+  'Gifted', 'Upscale', 'Slow', 'Evil', 'Angelic', 'Slippery', 'Light', 'Dark', 'Golden', 'Copper',
   'Cosmic', 'Medieval', 'Ghostly', 'Expensive', 'Careful', 'Brave', 'Adorable', 'Beautiful', 'Fat',
-  'Zombie', 'Broad', 'Abandoned', 'Agitated', 'Angry', 'Cartoon', 'Clean', 'Cold'
+  'Zombie', 'Broad', 'Abandoned', 'Agitated', 'Angry', 'Cartoon', 'Clean', 'Cold', 'Modern', 'Rustic',
+  'Industrial'
 ];
 
 export default adjectives;

@@ -12,7 +12,7 @@ class App extends Component {
     var prompt = adjective + " " + noun;
 
     return (
-      <div className="Home bg-black-05 ma0 pa6-l pa5-m pa4">
+      <div className="Home wiggle ma0 pa6-l pa5-m pa4">
         <div className="tc">
           <p className="black-60 lh-copy">Your prompt for today is...</p>
           <h1 className="mt4 mb6-l mb5 f-headline-l f-subheadline-m f1 vampiro">{prompt}</h1>
