@@ -28,7 +28,7 @@ class App extends Component {
               practicing, whether you use this for daily, weekly, or even a one off practice.
             </p>
             <p className="black-60 lh-copy f6 measure mb4">
-              I'd love to see what you make with these prompts. Be sure to tag me <a href="https://twitter.com/fromcortes" className="link gold hover-orange f6">@fromcortes</a> on Twitter
+              I would love to see what you make with these prompts. Be sure to tag me <a href="https://twitter.com/fromcortes" className="link gold hover-orange f6">@fromcortes</a> on Twitter
               or Instagram!
             </p>
           </div>
