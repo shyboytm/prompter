@@ -8,6 +8,7 @@ var nouns = [
   'Albert Einstein', 'Train', 'Laptop', 'Cartoon', 'Anime', 'Character', 'Office Chair', 'Website',
   'Magazine', 'Newspaper', 'Car', 'Ferrari', 'Lambo', 'Tattoo', 'Wallet', 'Lamp', 'Pokémon', 'Coffee',
   'Store', 'Shop', 'Mall', 'Skyline', 'Building', 'City', 'Street', 'Small Business', 'Sports Car',
+  'Outlet', 'Lamp', 'Plug', 'Fridge', 'Microwave', 'Juice', 'Toothpaste', 'Toothbrush', 'Toilet', 'Flask'
 ];
 
 export default nouns;

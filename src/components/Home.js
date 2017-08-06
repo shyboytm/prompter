@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import adjectives from '../data/Adjectives';
+import emojis from '../data/Emojis';
 import nouns from '../data/Nouns';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
 
     var adjective = adjectives[Math.floor(Math.random()*adjectives.length)];
     var noun = nouns[Math.floor(Math.random()*nouns.length)];
+    var emoji = emojis[Math.floor(Math.random()*emojis.length)];
 
     var prompt = adjective + " " + noun;
 
@@ -15,6 +17,7 @@ class App extends Component {
       <div className="flex flex-row-l flex-column wiggle ma0 archivo">
         <div className="flex flex-column order-1-l order-2 br b--black-05 vh-100-l w-25-l w-100 pa4">
           <div className="flex-auto">
+            <span className="f3">{emoji}</span>
             <h1 className="f2 pb4 vampiro gold bb b--cream">
               Prompter
             </h1>
