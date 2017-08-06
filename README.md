@@ -1,5 +1,6 @@
 # Prompter
-Randomized Prompt Subjects for Artists and Illustrators ✨
+Randomized prompt subjects for artists and illustrators ✨
+
 
 ### About
 
@@ -9,11 +10,13 @@ I'd love to see what you make with these prompts. Be sure to tag me @fromcortes 
 
 ---
 
+
 ### Contributing
 
 Feel free to submit pull requests to add more adjectives and nouns for the list or to make this little app better. Keep in mind that no profanity or controversial topics are allowed 🙏
 
 ---
+
 
 ### Usage
 
