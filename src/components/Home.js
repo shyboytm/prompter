@@ -27,7 +27,7 @@ class App extends Component {
               Having prompts provided for you is a great way to challenge yourself and get right to
               practicing, whether you use this for daily, weekly, or even a one off practice.
             </p>
-            <p className="black-60 lh-copy f6 measure mb5">
+            <p className="black-60 lh-copy f6 measure mb4">
               I'd love to see what you make with these prompts. Be sure to tag me <a href="https://twitter.com/fromcortes" className="link gold hover-orange f6">@fromcortes</a> on Twitter
               or Instagram!
             </p>
@@ -50,12 +50,17 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="flex flex-column items-center order-2-l order-1 vh-100-l w-75-l w-100 tc wiggle bg-cream pv7-l pa5">
-          <p className="mv0 f6 black-60 lh-copy">Your prompt for today is...</p>
+        <div className="flex flex-column items-center order-2-l order-1 vh-100-l w-75-l w-100 tc wiggle bg-cream pv6-l pa5">
+          <p className="mt5 f6 black-60 lh-copy">Your prompt for today is...</p>
           <h1 className="mv0 pt2 pb4 f-subheadline-ns f1 vampiro">{prompt}</h1>
           <a href="/" className="ttu tracked fw6 f7 mv4 mb5 dib center white bg-gold hover-bg-orange bg-animate link pv3 ph4 pointer br-pill">
             Refresh
           </a>
+          <div className="mb4-l mr3-l bottom-0-l right-0-l absolute-l dib-l dn">
+            <a href="https://github.com/fromcortes/prompter" target="_blank" rel="nofollow" className="ttu tracked link fw6 f7 mv0 gold hover-orange mr3 ml1">
+              View on Github
+            </a>
+          </div>
         </div>
       </div>
     );
