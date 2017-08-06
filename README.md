@@ -1,5 +1,5 @@
 # Prompter
-Randomized prompt subjects for artists and illustrators ✨
+Random prompt subjects for artists and illustrators ✨
 
 
 ### About
