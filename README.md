@@ -10,3 +10,7 @@ I'd love to see what you make with these prompts. Be sure to tag me @fromcortes 
 ---
 
 Feel free to submit pull requests to add more adjectives and nouns for the list or to make this little app better. Keep in mind that no profanity or controversial topics are allowed 🙏
+
+---
+
+Built in React. Clone the app and then be sure to `npm install` in the project file. Then run `npm start` to work on the application locally.
