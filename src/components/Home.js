@@ -5,19 +5,32 @@ import emojis from '../data/Emojis';
 import nouns from '../data/Nouns';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      adjective: adjectives[Math.floor(Math.random()*adjectives.length)],
+      noun: nouns[Math.floor(Math.random()*nouns.length)],
+      emoji: emojis[Math.floor(Math.random()*emojis.length)]
+    }
+  }
+
+  handleClick(e) {
+    e.preventDefault();
+    this.setState({
+      adjective: adjectives[Math.floor(Math.random()*adjectives.length)],
+      noun: nouns[Math.floor(Math.random()*nouns.length)],
+      emoji: emojis[Math.floor(Math.random()*emojis.length)]
+    });
+  }
+
   render() {
-
-    var adjective = adjectives[Math.floor(Math.random()*adjectives.length)];
-    var noun = nouns[Math.floor(Math.random()*nouns.length)];
-    var emoji = emojis[Math.floor(Math.random()*emojis.length)];
-
-    var prompt = adjective + " " + noun;
+    var prompt = this.state.adjective + " " + this.state.noun;
 
     return (
       <div className="flex flex-row-l flex-column wiggle ma0 archivo">
         <div className="flex flex-column order-1-l order-2 br b--black-05 vh-100-l w-25-l w-100 pa4">
           <div className="flex-auto">
-            <span className="f3">{emoji}</span>
+            <span className="f3">{this.state.emoji}</span>
             <h1 className="f2 pb4 vampiro gold bb b--cream">
               Prompter
             </h1>
@@ -53,9 +66,9 @@ class App extends Component {
         <div className="flex flex-column items-center order-2-l order-1 vh-100-l w-75-l w-100 tc wiggle bg-cream pv6-l pa5">
           <p className="mt5 f6 black-60 lh-copy">Your prompt for today is...</p>
           <h1 className="mv0 pt2 pb4 f-subheadline-ns f1 vampiro">{prompt}</h1>
-          <a href="/" className="ttu tracked fw6 f7 mv4 mb5 dib center white bg-gold hover-bg-orange bg-animate link pv3 ph4 pointer br-pill">
+          <p onClick={this.handleClick.bind(this)} className="ttu tracked fw6 f7 mv4 mb5 dib center white bg-gold hover-bg-orange bg-animate link pv3 ph4 pointer br-pill">
             Refresh
-          </a>
+          </p>
           <div className="mb4-l mr3-l bottom-0-l right-0-l absolute-l dib-l dn">
             <a href="https://github.com/fromcortes/prompter" target="_blank" rel="nofollow" className="ttu tracked link fw6 f7 mv0 gold hover-orange mr3 ml1">
               View on Github
