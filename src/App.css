@@ -1,6 +1,6 @@
 @import 'tachyons.min.css';
 
-.archivo  { font-family: 'Archivo', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif; }
+.sans-serif { font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
 .vampiro  { font-family: 'Vampiro One', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif; }
 
 .bg-cream { background-color: #F9F6EE; }

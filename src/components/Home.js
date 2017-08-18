@@ -27,7 +27,7 @@ class App extends Component {
     var prompt = this.state.adjective + " " + this.state.noun;
 
     return (
-      <div className="flex flex-row-l flex-column wiggle ma0 archivo">
+      <div className="flex flex-row-l flex-column wiggle ma0 sans-serif">
         <div className="flex flex-column order-1-l order-2 br b--black-05 vh-100-l w-25-l w-100 pa4">
           <div className="flex-auto">
             <span className="f3">{this.state.emoji}</span>
@@ -64,11 +64,11 @@ class App extends Component {
           </div>
         </div>
         <div className="flex flex-column items-center order-2-l order-1 vh-100-l w-75-l w-100 tc wiggle bg-cream pv6-l pa5">
-          <p className="mt5 f6 black-60 lh-copy">Your prompt for today is...</p>
-          <h1 className="mv0 pt2 pb4 f-subheadline-ns f1 vampiro">{prompt}</h1>
-          <p onClick={this.handleClick.bind(this)} className="ttu tracked fw6 f7 mv4 mb5 dib center white bg-gold hover-bg-orange bg-animate link pv3 ph4 pointer br-pill">
+          <span onClick={this.handleClick.bind(this)} className="absolute-l bottom-0-l ttu tracked fw6 f7 mb4-l dib center white bg-gold hover-bg-orange bg-animate link pv3 ph4 pointer br-pill">
             Refresh
-          </p>
+          </span>
+          <p className="mt5 f6 black-60 lh-copy">Your prompt for today is...</p>
+          <h1 className="mv0 pt2 pb4 f-subheadline-ns f1 fw9 sans-serif">{prompt}</h1>
           <div className="mb4-l mr3-l bottom-0-l right-0-l absolute-l dib-l dn">
             <a href="https://github.com/fromcortes/prompter" target="_blank" rel="nofollow" className="ttu tracked link fw6 f7 mv0 gold hover-orange mr3 ml1">
               View on Github
